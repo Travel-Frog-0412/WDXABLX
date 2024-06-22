@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>欢迎来到高涵的网页</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<!-- 以上是文档的头部，链接index.css文档 -->
+<!--  -->
+<body>
+    <!-- 页眉区 -->
+    <div id="header">
+        欢迎来到高涵的个人网页
+    </div>
+    <!-- end of header -->
+    <!-- 插入首页图片素材 -->
+    <div class="img"> 
+        <img src="images/首页布朗熊.gif" alt="橙色背景布朗熊">
+    </div>
+<!-- 导航区 -->
+    <div id="nav"> 
+        <ul>
+            <li class="selected"><a href="index.html">首页</a></li>
+            <li><a href="生活照片.html">生活照片</a></li>
+            <li><a href="个人简历.html">个人简历</a></li>
+            <li><a href="你的留言.html">你的留言</a></li>
+        </ul>
+    </div>
+<!-- end of nav -->
+ <div>
+    <div>
+        <img id="img1" src="images/头像.jpg" alt="首页头像">
+        <!-- 设置的自我介绍Q版头像 -->
+    </div>
+<!-- 自我介绍 -->
+    <div id="introduce">
+        <!-- 无序列表   5个列表项-->
+        <ul>
+        <li>姓名: 高涵</li>
+        <li>年龄: 20岁</li>
+        <li>家乡: 河南开封</li>
+        <li>学校:中南财经政法大学</li>
+        <li><a href="个人简历.html">个人简历</a></li>
+        <p> 希望大家可以通过这个网站认识我,我会经常更新里面的内容,大家请多多留言哦。
+            xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+            xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+            xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+            xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+            xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+        </p>
+    </ul>
+    </div>
+ </div>
+
+<!-- 简介结束 -->
+<!-- 我的兴趣板块 -->
+     <div>
+        <p id="interest">
+            论我空闲时间都喜欢干什么:
+        </p>
+        <!-- 整个div为一个tablecontainer -->
+         <div id="tableContainer">
+            <!-- 分为一行四列 -->
+             <div id="tableRow">
+                <!-- 兴趣一 -->
+                 <div class="cont">
+                     <h1>钩织</h1>
+                     <img src="images/毛线.jpg" class="img2">
+                     <p>学钩针编织的前提是要敢于尝试，慢慢尝试就会发现其中的美好。学习钩针编织的过程中最重要的是耐心和坚持，
+                         因为有时一坐就是6、7个小时。编织经验是不断制作作品积累所得的，长时间不钩的话，
+                         手会生疏，也只有真的喜欢才能坚持下去。
+                     </p>
+                     <p>《小王子》里有说，正因为你的玫瑰倾注了时间，这才使得你的玫瑰如此重要，这大概就是手工珍贵的原因吧。</p>
+                 </div>
+                 <!-- 兴趣一end -->
+                  <!-- 兴趣二 -->
+                 <div class="cont">
+                   <h1>阅读</h1>
+                   <img src="images/阅读.jpg" class="img2">
+                   <ul>
+                     <li style="list-style-type:none;">读过的作品如：</li>
+                     <li>《活着》-余华</li>
+                     <li>《人间草木》-汪曾祺</li>
+                     <li>《平凡的世界》-路遥</li>
+                     <li>《局外人》-阿尔贝·加缪</li>
+                     <li>......</li>
+                   </ul>
+                   <p>
+                     阅读，不仅仅会让现实的旅行更加丰富，更重要的是，能让精神突破现实和身体的桎梏，来一场灵魂长足的旅行。
+                   </p>
+                 </div>
+                 <!-- 兴趣二 end -->
+                  <!-- 兴趣三 -->
+                 <div class="cont">
+                     <h1>“养娃”</h1>
+                     <video loop="loop" controls="controls" poster="images/棉花娃娃.jpg"  class="img2">
+                     <source src="images/棉花娃娃.mp4" type="video/mp4"></source></video>   
+                    <!--插入视频  postre是封面来源，source是视频来源，视频类型为mp4-->
+                     <p>大家好，这是我的棉花娃娃，他叫六六。</p>
+                     <p>
+                         什么是棉花娃娃呢？顾名思义，棉花娃娃是一种全身用棉花制成的玩偶娃娃，分为有属性和无属性，
+                         有属性一般为明星、角色衍生物，无属性可以理解为娃妈画手自己的灵感产物。
+                         棉花娃娃可以带给我们治愈、温暖以及钱包空空......
+                     </p>
+                 </div>
+                 <!-- 兴趣三end -->
+                  <!-- 兴趣四 -->
+                 <div class="cont">
+                     <h1>打游戏</h1>
+                     <img src="images/第五人格.jpg" class="img2">
+                     <p>
+                         《第五人格》是网易开发的非对称性对抗竞技类游戏，我从八年级入坑的这款游戏。该游戏的游戏背景如下：
+                     </p>
+                     <p>
+                         玩家将扮演侦探奥尔菲斯，在收到一封神秘的委托信后，进入恶名昭著的庄园调查一件失踪案。在进行证据调查过程中，
+                         玩家扮演的奥尔菲斯将采用演绎法，对案情进行回顾。在案情回顾时，玩家可以选择扮演监管者或者求生者，展开激烈的
+                         对抗。而在调查过程中，无限接近事实时，却发生越来越不可思议的真相......
+                     </p>
+                     <p>
+                          游戏，我只玩第五人格！
+                         <a href="https://id5.163.com/" style="font-size: 90%;">官网指路</a>
+                     </p>
+                 </div>
+                 <!-- 兴趣四end -->
+             </div>
+             <!-- tableRow end -->
+         </div>
+         <!-- tableContainer end -->
+     </div>
+<!-- 兴趣介绍完毕 -->
+<!--页脚区 -->
+    <div id="footer">
+        <p>
+            过去的不后悔，现在的珍惜，未来不设限
+        </p>
+    </div>
+<!-- end of footer -->
+</body>
+</html>
+
